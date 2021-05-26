@@ -1,0 +1,13 @@
+// tsc 會執行的 root 是這隻
+// 這支會對所有的 packages 打包所有必要的檔案
+{
+  "files": [], // 只需針對 packages 內的程式碼執行 build，而不需要針對 packages 內的所有檔案都產生對應的 .js 檔
+  "references": [
+    {
+      "path": "utils"
+    },
+    {
+      "path": "types"
+    }
+  ]
+}

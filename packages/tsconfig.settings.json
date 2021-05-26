@@ -1,0 +1,14 @@
+// 給 packages/ 中的 tsconfig 讀取用的共用設定檔
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "types": [],
+    "sourceMap": true,
+    "target": "ES2018",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "declaration": true
+  }
+}

@@ -3,6 +3,7 @@
     "api-extractor*.json": "jsonc"
   },
   "cSpell.words": [
+    "commitlint",
     "scripty",
     "tsbuildinfo"
   ],
